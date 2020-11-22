@@ -55,6 +55,13 @@ ul.tabs {
 	padding: 15px;
 	border-bottom: 1px solid #ccc;
 	position: relative;
+	cursor: pointer;
+}
+.list li * {
+	pointer-events: none;
+}
+.list li:hover {
+	background-color: #eee;
 }
 .list li:last-child {
 	border-bottom: none;

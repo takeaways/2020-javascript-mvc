@@ -29,5 +29,6 @@ TabView.setActiveTab = function (tabName) {
 		}
 		li.classList.remove("active");
 	}
+	this.show();
 };
 export default TabView;
