@@ -35,6 +35,7 @@ ul.tabs {
 	display: flex;
 }
 .tabs li {
+	cursor: pointer;
 	display: inline-block;
 	width: 50%;
 	padding: 15px;
