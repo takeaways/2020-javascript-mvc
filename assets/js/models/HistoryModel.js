@@ -16,7 +16,11 @@ export default {
 			this.remove(keyword);
 		}
 
-		const date = "12.31";
+		const d = new Date();
+		const y = d.getFullYear().toString().slice(2);
+		const m = d.getMonth() + 1 > 9 ? d.getMonth() + 1 : "0" + d.getMonth() + 1;
+
+		const date = `${y}.${m}`;
 		this.data = [{ keyword, date }, ...this.data];
 	},
 

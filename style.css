@@ -103,6 +103,17 @@ form {
 .btn-reset::before,
 .btn-remove::before {
 	content: "X";
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+.btn-remove {
+	transition: all 0.1s;
+}
+
+.btn-remove:hover {
+	transform: scale(1.5);
+	background-color: red;
 }
 
 #search-result li {
