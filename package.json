@@ -1,0 +1,19 @@
+{
+  "name": "2020-javascript-mvc",
+  "version": "1.0.0",
+  "description": "\"# what-javascript-is\"",
+  "main": "index.js",
+  "scripts": {
+    "start":"http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomadGeonilJang/2020-javascript-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomadGeonilJang/2020-javascript-mvc/issues"
+  },
+  "homepage": "https://github.com/nomadGeonilJang/2020-javascript-mvc#readme"
+}
